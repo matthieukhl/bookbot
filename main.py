@@ -12,10 +12,11 @@ def get_character_count(book):
     word_count = {}
     for i in range(0, len(booklist)):
         for letter in booklist[i]:
-            if letter not in word_count:
-                word_count[letter] = 1
-            else:
-                word_count[letter] += 1
+            if letter.isalpha():
+                if letter not in word_count:
+                    word_count[letter] = 1
+                else:
+                    word_count[letter] += 1
     return word_count
 
 def get_report(word_count, character_count):
