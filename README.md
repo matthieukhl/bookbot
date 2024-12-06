@@ -1,6 +1,6 @@
 # BookBot: Text Analysis Command-Line Application
 ## Overview
-This project is a Python-based command-line application designed to perform static analysis on text files, specifially novels like *Frankenstein*. It was developed as part of the **Boot.dev** course title *"Build a Bookbot*.
+This project is a Python-based command-line application designed to perform static analysis on text files, specifially novels like *Frankenstein*. It was developed as part of the **Boot.dev** course title *"Build a Bookbot"*.
 
 ## Purpose
 The purpose of this project is to introduce Python programming fundamentals while working with a real-world use case. It involves setting up a professional development environment using VS Code, Git and GitHub.
@@ -18,11 +18,11 @@ Bookbot processes text files and provides a detailed analysis, including:
 3. A summary report is displayed in the console with these insights.
 
 ## Usage
-Download the full content of Frankenstein book here: [Frankenstein](https://raw.githubusercontent.com/asweigart/codebreaker/master/frankenstein.txt)
+Download the full content of Frankenstein book [here](https://raw.githubusercontent.com/asweigart/codebreaker/master/frankenstein.txt)
+
+Ensure the text file is located in the `books/` directory and named `frankenstein.txt`
 
 Run the application from the command line using the following command:
 ```bash
 python3 main.py
 ```
-
-Ensure the text file is located in the `books/` directory and named `frankenstein.txt`
